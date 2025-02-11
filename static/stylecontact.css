@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bokor&family=DM+Serif+Text:ital@0;1&family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Faculty+Glyphic&family=Ga+Maamli&family=Itim&family=Jacquard+12+Charted&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&family=Sixtyfour+Convergence&display=swap');
+.container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    font-family: "DM Serif Text", serif;
+    text-align: center;
+    margin: 12px 0px;
+    font-size: 40px;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myinput{
+    width: 40%;
+    margin: 9px;
+    border: 2px solid #3c2626;
+    border-radius: 6px;
+    padding: 3px 12px;
+    font-size: 1rem;
+    outline: none;
+}
+.btn{
+    padding: 3px 33px;
+  margin: 40px;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 15%;
+  font-weight: bold;
+background-color: chocolate;
+cursor: pointer;
+}
+.btn:hover{
+    background-color: #3c2626;
+    color: white;
+}

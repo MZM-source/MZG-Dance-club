@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    
+
+    section#introsection  
+        h1 Welcome to MZG Dance Club
+        div.small Eat Dance Sleep and Repeat
+    section#missionsection
+        h1 Our Mission
+        div.card
+          h3 Dance perfection
+          div.card-box
+            div.card-img
+              img(src="/static/img/bg2.jpg")
+            div.card-content
+              p This is the best Dance club in the punjab.
+        div.card
+          h3 Dance the way you like
+          div.card-box
+            div.card-img
+              img(src="/static/img/bg2.jpg")
+            div.card-content
+              p This is the best Dance club in the punjab.
+        div.card
+          h3 Professional Dancers
+          div.card-box
+            div.card-img
+              img(src="/static/img/bg3.jpg")
+            div.card-content
+              p This is the best Dance club in the punjab.
+    section#sponsersection  
+        h1 Our Sponsers 
+        div#sponser
+          img(src="/static/img/sponser.png", alt="image not found", Class="spimg")
+          img(src="/static/img/sponser2.png", alt="image not found", Class="spimg")
+          img(src="/static/img/sponser3.png", alt="image not found", Class="spimg")
+
